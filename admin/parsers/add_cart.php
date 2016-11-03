@@ -51,7 +51,7 @@
     $cart_expire = date("Y-m-d H:i:s",strtotime("+30 days")); //where we store database format
     $db->query("INSERT INTO cart (items,expire_date) VALUES ('{$items_json}','{$cart_expire}')");
     $cart_id = $db->insert_id;
-    setcookie(CART_COOKIE,$cart_id,CART_COOKIE_EXPIRE,'/',$domain,false);
+    setcookie(CART_COOKIE,$cart_id,$cart_expire,'/',$domain,false);
 
   }
   ?>
