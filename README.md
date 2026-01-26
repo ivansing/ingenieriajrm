@@ -43,4 +43,4 @@ Full-stack e-commerce web application developed in 2016. This project features a
 
 ## Author
 
-Developed by Ivan JRM in 2016. Built following the e-commerce course curriculum by Curtis Perham.
+Developed by Ivan JRM in 2016.
